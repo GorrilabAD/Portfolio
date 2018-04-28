@@ -1,0 +1,16 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass sass/index.scss css/index.css -w"
+  },
+  "author": "Gorrila_developer",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "query": "^0.2.0"
+  }
+}

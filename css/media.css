@@ -1,0 +1,405 @@
+@media screen and (max-width:1130px) {
+  .container__full
+   .logo__title h1{
+    font-size: 40px;
+}
+.description_block{
+  margin-left: 0;
+}
+.container__flex {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right:0;
+}
+}
+
+
+@media screen and (max-width:1090px){
+  .container__full
+    {
+      flex-wrap: wrap;
+    }
+    .about__container{
+      margin-left: 20px !important;
+      padding-left: 20px !important;
+      width: 100%;
+}
+}
+@media screen and (max-width:1024px){
+  .container__full__person {
+      width: 100%;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  container__serveces__about{
+    width: 100%;
+  }
+.container__full__person
+ .block__personal__photo
+  .mw-38{
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  border-radius: 50%
+}
+.container__full__person .about__container .container__serveces__about .row {
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.container__full__person .about__container h2{
+  text-align: center;
+}
+.container__full__person .about__container p{
+  text-align: center;
+  margin: 0 auto;
+}
+.container__full__person .about__container .container__serveces__about .row .card .text__card p{
+  width: 220px;
+  margin-left: 0;
+
+}
+  .container__flex{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+  .description_block{
+    margin: 0;
+    margin-top: 50px;
+  }
+  .navbar__container .menu__items{
+    display: none;
+  }
+  .burger{
+    display: block !important;
+  }
+  .navbar__container
+  .logo__container {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+}
+.left__block__footer {
+    margin-left: 0 !important;
+    margin: 0 auto !important;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.left__block__footer p{
+  text-align: center !important;
+  margin: 0 auto;
+}
+.left__block__footer h2{
+  text-align: center !important;
+  margin: 0 auto;
+
+}
+.left__block__footer span{
+  margin: 0 auto ;
+  text-align: center;
+  width: 300px;
+}
+
+.right__block__footer{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin: 0 auto !important;
+
+}
+footer{
+  flex-wrap: wrap;
+
+}
+}
+
+@media screen and (max-width:928px){
+  .container__full
+   .logo__title h1 {
+    font-size: 30px;
+}
+
+
+}
+@media screen and (max-width: 768px){
+  footer{
+    display: block;
+  }
+  .skills {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 100px;
+}
+.skills
+.left__block__skills {
+    width: 100%;
+
+    margin-bottom: 100px;
+
+
+
+}
+
+.education__container
+ .left__block
+  h2 {
+    text-align: center;
+  }
+  .education__container
+   .left__block
+    p {
+      text-align: center;
+      max-width: 100%;
+    }
+    .block__our__slider p{
+      width: 90%;
+    }
+.skills
+ .left__block__skills
+  h2{
+  text-align: center;
+}
+.skills
+ .left__block__skills
+  p{
+  text-align: center;
+  margin: 0 auto;
+}
+.skills
+ .left__block__skills
+  .button__skils{
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.skills .right__block__skills{
+  margin: 0 auto;
+}
+.container__full
+ .logo__title
+  .button__learn {
+      position: relative;
+      width: 166px;
+      height: 36px;
+      margin: 0 auto;
+      border: solid 1px #fff;
+      text-transform: uppercase;
+      z-index: 3;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+}
+
+.container__full__person
+ .about__container
+  .container__serveces__about
+   .row
+    .card {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 30px;
+  }
+
+  .container__full__person
+   .about__container {
+      padding-left: 15px;
+      padding-right: 15px;
+}
+
+
+.left__block__skills{
+  margin-bottom: 60px;
+}
+.education__container {
+    width: 90%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 80px;
+    position: relative;
+    margin: 0 auto;
+}
+.education__container
+ .left__block {
+  margin-bottom: 60px ;
+}
+.content__resume{
+  width: 90%;
+  padding-bottom: 60px;
+
+
+}
+.content__resume p{
+  width: 100%;
+}
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width:708px){
+  .container__full
+   .logo__title h1 {
+    font-size: 25px;
+}
+}
+
+@media screen and (max-width:699px){
+  .container__flex {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+}
+}
+
+@media screen and (max-width:600px){
+  .container__full
+    .logo__title{
+    top: 80px;
+  }
+  .container__full
+   .logo__title h1 {
+    font-size: 20px;
+}
+
+
+}
+
+@media screen and (max-width:540px) {
+  footer .right__block__footer .element__input {
+    width: 400px;
+    margin: 0 auto;
+}
+}
+@media screen and (max-width:496px) {
+  .container__full
+    .logo__title{
+    top: 30px;
+  }
+  .container__flex
+  .description_block {
+    width: 268px;
+    margin-left: 0px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container__full
+ .logo__title
+  .button__learn {
+    position: relative;
+    width: 166px;
+    height: 36px;
+    margin: 0 auto;
+    border: solid 1px #fff;
+    text-transform: uppercase;
+    z-index: 3;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.container__full
+ .logo__title h1 {
+  font-size: 20px;
+  width: 70%;
+}
+.container__full__person
+ .about__container p {
+    /* width: 550px; */
+    color: #919191;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+}
+@media screen and (max-width:448px) {
+  footer .right__block__footer .element__input {
+    width: 280px;
+    margin: 0 auto;
+}
+.left__block__footer{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+}
+
+@media screen and (max-width:420px){
+
+}
+@media screen and (max-width:420px){
+
+  .container__full__person
+   .about__container p{
+    max-width: 75%;
+    text-align: left;
+  }
+  .navbar__container
+   .logo__container {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+}
+@media screen and (max-width: 320px){
+  .container__full
+    .logo__title{
+    top: 30px;
+  }
+  .container__full
+   .logo__title h1 {
+    font-size: 20px;
+    width: 70%;
+
+  }
+
+
+}
