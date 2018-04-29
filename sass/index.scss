@@ -256,8 +256,8 @@ body{
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-start;
+  flex-wrap: nowrap ;
   margin-left: 80px;
   margin-right: 40px;
 
@@ -814,7 +814,7 @@ body{
         width: 366px;
         height: 300px;
         background-color:  #252e30;
-        margin-top: 30px;
+        margin-top: 50px;
 
           p{
             color:  #ffffff;
@@ -919,11 +919,30 @@ footer{
             input{
               background-color:  #4b5456;
               height: 56px;
+              padding-left: 30px;
+              color: #ccc;
               width: 100%;
               border: none;
+              &:focus{
+                outline: none;
+              }
             }
-            input[type="textarea"]{
+            textarea{
               height: 279px;
+              width: 100%;
+
+              border: none;
+              padding-left: 30px;
+              padding-top: 30px;
+              color: #ccc;
+              background-color:  #4b5456;
+
+              &:focus{
+                outline: none;
+                background-color:  #4b5456;
+
+                border: 1px solid rgba(46, 204, 113, 0.67);
+              }
             }
         }
         .element__button{
@@ -941,7 +960,7 @@ footer{
             font-size: 18px;/* Приближение из-за подстановки шрифтов */
             font-weight: 700;
             line-height: 24px;/* Приближение из-за подстановки шрифтов */
-            text-align: center;
+            text-align: left;
             text-transform: uppercase;
             position: relative;
 
