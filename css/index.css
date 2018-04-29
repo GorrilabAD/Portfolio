@@ -848,7 +848,6 @@ footer {
         width: 185px;
         height: 100%;
         background: rgba(46, 204, 113, 0.75);
-        display: block;
         position: absolute;
         top: 0;
         z-index: 1;

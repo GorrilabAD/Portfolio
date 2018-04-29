@@ -386,6 +386,12 @@ textarea{
   padding-left: 15px;
   padding-right: 15px;
 }
+footer .right__block__footer .element__button {
+    position: relative;
+    margin: 0 auto;
+    width: 185px !important;
+}
+
 }
 
 
@@ -413,6 +419,7 @@ textarea{
     width: 70%;
 
   }
+
 
 
 }
