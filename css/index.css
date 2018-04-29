@@ -827,7 +827,7 @@ footer {
     footer .right__block__footer .element__button {
       position: relative;
       margin: 0 auto; }
-      footer .right__block__footer .element__button input[type="submit"] {
+      footer .right__block__footer .element__button button {
         background-color: #191f21;
         width: 185px;
         height: 56px;
