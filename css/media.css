@@ -376,8 +376,11 @@ footer{
 }
 @media screen and (max-width:448px) {
   footer .right__block__footer .element__input {
-    width: 280px;
-    margin: 0;
+    width: 255px;
+    margin: 0 auto;
+}
+textarea{
+      width: 235px;
 }
 .left__block__footer{
   padding-left: 15px;
