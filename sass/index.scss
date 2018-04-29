@@ -954,8 +954,6 @@ footer{
         }
         .element__button{
           position: relative;
-          width: 185px;
-          height: 56px;
           margin: 0 auto;
 
           input[type="submit"]{
@@ -971,17 +969,18 @@ footer{
             text-align: center;
             text-transform: uppercase;
             position: relative;
+            display: block;
 
 
           }
           &::before{
             content: '';
-            width: 0;
+            width: 185px;
             height: 100%;
             background: rgba(46, 204, 113, 0.75);
             display: block;
             position: absolute;
-            top: 40px ;
+            top: 0;
             z-index: 1;
             opacity: 0;
             left: 0;
@@ -989,17 +988,13 @@ footer{
           }
           &:hover::before{
             opacity: .5;
-            width: 185px;
-          }
-          &:active::before{
-            opacity: 0;
             width: 0;
-            left: 186px;
-            transition: all .015s ease;
           }
+
           &:active{
-              transform: scale(0.9);
-              transition: all .4s ease;
+            outline: none;
+              transform: scale(0.98);
+              transition: all .1s ease;
           }
 
         }

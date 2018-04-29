@@ -826,8 +826,6 @@ footer {
           border: 1px solid rgba(46, 204, 113, 0.67); }
     footer .right__block__footer .element__button {
       position: relative;
-      width: 185px;
-      height: 56px;
       margin: 0 auto; }
       footer .right__block__footer .element__button input[type="submit"] {
         background-color: #191f21;
@@ -843,30 +841,27 @@ footer {
         /* Приближение из-за подстановки шрифтов */
         text-align: center;
         text-transform: uppercase;
-        position: relative; }
+        position: relative;
+        display: block; }
       footer .right__block__footer .element__button::before {
         content: '';
-        width: 0;
+        width: 185px;
         height: 100%;
         background: rgba(46, 204, 113, 0.75);
         display: block;
         position: absolute;
-        top: 40px;
+        top: 0;
         z-index: 1;
         opacity: 0;
         left: 0;
         transition: all .6s ease; }
       footer .right__block__footer .element__button:hover::before {
         opacity: .5;
-        width: 185px; }
-      footer .right__block__footer .element__button:active::before {
-        opacity: 0;
-        width: 0;
-        left: 186px;
-        transition: all .015s ease; }
+        width: 0; }
       footer .right__block__footer .element__button:active {
-        transform: scale(0.9);
-        transition: all .4s ease; }
+        outline: none;
+        transform: scale(0.98);
+        transition: all .1s ease; }
 
 .footer__down {
   background-color: #191f21;
