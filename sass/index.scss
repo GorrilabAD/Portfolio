@@ -925,6 +925,9 @@ footer{
               border: none;
               &:focus{
                 outline: none;
+                border-bottom: 1px solid rgba(46, 204, 113, 0.67);
+                transition: all .4s ease;
+
               }
             }
             textarea{
@@ -940,7 +943,7 @@ footer{
               &:focus{
                 outline: none;
                 background-color:  #4b5456;
-
+                transition: all .2s ease;
                 border: 1px solid rgba(46, 204, 113, 0.67);
               }
             }
