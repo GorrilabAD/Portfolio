@@ -840,7 +840,7 @@ footer {
         font-weight: 700;
         line-height: 24px;
         /* Приближение из-за подстановки шрифтов */
-        text-align: left;
+        text-align: center;
         text-transform: uppercase;
         position: relative; }
       footer .right__block__footer .element__button::before {
