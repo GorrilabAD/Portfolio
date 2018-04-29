@@ -377,7 +377,7 @@ footer{
 @media screen and (max-width:448px) {
   footer .right__block__footer .element__input {
     width: 280px;
-    margin: 0 auto;
+    margin: 0;
 }
 .left__block__footer{
   padding-left: 15px;
