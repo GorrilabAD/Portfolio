@@ -664,8 +664,6 @@ body {
     .portfolio__container .row__portfolio .card__portfolio {
       width: 366px;
       height: 300px;
-      margin-left: 10px;
-      margin-top: 50px;
       display: block;
       position: relative; }
       .portfolio__container .row__portfolio .card__portfolio::before {
