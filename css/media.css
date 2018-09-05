@@ -287,10 +287,14 @@ footer{
   text-align: left !important;
   margin: 0 auto;
 }
-.card_portfolio {
-  margin: 0;
-  }
-
+.portfolio__container .row__portfolio .card__portfolio {
+    width: 366px;
+    height: 300px;
+    /* margin-left: 10px; */
+    /* margin-top: 50px; */
+    display: block;
+    position: relative;
+}
 
 
 }
