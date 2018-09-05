@@ -287,7 +287,9 @@ footer{
   text-align: left !important;
   margin: 0 auto;
 }
-
+.card_portfolio {
+  margin: 0;
+  }
 
 
 
