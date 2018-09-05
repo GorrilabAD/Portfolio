@@ -42,10 +42,9 @@
       flex-wrap: wrap;
       justify-content: center;
   }
-  container__serveces__about{
+  .container__serveces__about{
     width: 100%;
   }
-
 .container__full__person
  .block__personal__photo
   .mw-circle{
@@ -295,7 +294,19 @@ footer{
     display: block;
     position: relative;
 }
-
+.container__flex .description_block:hover {
+    -webkit-box-shadow: none ;
+    box-shadow: none ;
+    transition: none ;
+    border-radius: 5px;
+    text-align: center;
+}
+.container__flex .description_block p {
+    text-align: center;
+}
+.container__flex .description_block h2 {
+  text-align: center;
+}
 
 }
 
@@ -418,7 +429,7 @@ footer .right__block__footer .element__button {
 }
   .img_port {
     width: 100%;
-    
+
 }
 @media screen and (max-width: 320px){
   .container__full
