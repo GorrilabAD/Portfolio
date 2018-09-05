@@ -407,6 +407,8 @@ footer .right__block__footer .element__button {
     align-items: center;
     margin-left: 30%;
 }
+  .img_port {
+    width: 100%;
 }
 @media screen and (max-width: 320px){
   .container__full
