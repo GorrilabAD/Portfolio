@@ -642,6 +642,9 @@ body {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 50px; }
+.portfolio__container .portfolio__text {
+  padding-bottom: 60px; 
+}
   .portfolio__container .portfolio__text p {
     color: #919191;
     width: 70%;
