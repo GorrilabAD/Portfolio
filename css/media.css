@@ -148,7 +148,6 @@ footer{
 }
 @media screen and (max-width: 768px){
   .img_port {
-    max-width: 100%;
     margin-left:0;
   }
   footer{
