@@ -135,6 +135,7 @@ footer{
   flex-wrap: wrap;
 
 }
+
 }
 
 @media screen and (max-width:928px){
@@ -151,6 +152,9 @@ footer{
   }
   footer{
     display: block;
+  }
+  .portfolio__container .row__portfolio .card__portfolio {
+    margin-left: 0;
   }
   .skills {
     display: -webkit-flex;
@@ -172,6 +176,7 @@ footer{
 
 
 }
+
 
 .education__container
  .left__block
@@ -376,6 +381,15 @@ footer{
     line-height: 20px;
     text-align: left;
 }
+.portfolio__container .row__portfolio .card__portfolio {
+    width: 90%;
+    margin-left: 0;
+    height: 300px;
+    /* margin-left: 10px; */
+    /* margin-top: 50px; */
+    display: block;
+    position: relative;
+}
 }
 @media screen and (max-width:448px) {
   footer .right__block__footer .element__input {
@@ -422,6 +436,7 @@ footer .right__block__footer .element__button {
     width: 70%;
 
   }
+
 
 
 

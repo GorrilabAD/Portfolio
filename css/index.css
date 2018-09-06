@@ -286,7 +286,7 @@ body {
   display: flex;
   padding-top: 100px; }
   .container__full__person .block__personal__photo {
-    min-width: 350px; }
+    min-width: 100%; }
     .container__full__person .block__personal__photo img {
       max-width: 100%; }
   .container__full__person .about__container {
