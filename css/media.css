@@ -306,6 +306,9 @@ footer{
    .logo__title h1 {
     font-size: 25px;
 }
+.slick-next {
+  right: 0;
+}
 }
 
 @media screen and (max-width:699px){
