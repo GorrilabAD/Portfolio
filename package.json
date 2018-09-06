@@ -10,7 +10,9 @@
   "author": "Gorrila_developer",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.3",
     "node-sass": "^4.9.0",
-    "query": "^0.2.0"
+    "query": "^0.2.0",
+    "serve": "^10.0.0"
   }
 }

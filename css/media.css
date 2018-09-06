@@ -51,6 +51,9 @@
   display: block;
   width: 160px;
   height: 160px;
+  background: url('../img/2.jpg');
+  background-position: center;
+  background-size: 140%;
   margin: 0 auto;
   margin-bottom: 60px;
   border-radius: 50%
@@ -76,8 +79,6 @@
 
 }
   .container__flex{
-    padding-left: 15px;
-    padding-right: 15px;
     width: 100%;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -101,7 +102,6 @@
     display: -ms-flex;
     display: flex;
     align-items: center;
-    margin-left: 40%;
 }
 .left__block__footer {
     margin-left: 0 !important;
@@ -254,19 +254,7 @@ footer{
 .left__block__skills{
   margin-bottom: 60px;
 }
-.education__container {
-    width: 90%;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 80px;
-    position: relative;
-    margin: 0 auto;
-}
+
 .education__container
  .left__block {
   margin-bottom: 60px ;
@@ -322,8 +310,6 @@ footer{
 
 @media screen and (max-width:699px){
   .container__flex {
-    padding-left: 15px;
-    padding-right: 15px;
     width: 100%;
     justify-content: center;
     margin: 0;
@@ -331,10 +317,7 @@ footer{
 }
 
 @media screen and (max-width:600px){
-  .container__full
-    .logo__title{
-    top: 80px;
-  }
+
   .container__full
    .logo__title h1 {
     font-size: 20px;
@@ -350,10 +333,7 @@ footer{
 }
 }
 @media screen and (max-width:496px) {
-  .container__full
-    .logo__title{
-    top: 30px;
-  }
+
   .container__flex
   .description_block {
     width: 268px;
@@ -425,17 +405,14 @@ footer .right__block__footer .element__button {
     display: -ms-flex;
     display: flex;
     align-items: center;
-    margin-left: 30%;
+    margin-left: 20%;
 }
   .img_port {
     width: 100%;
 
 }
 @media screen and (max-width: 320px){
-  .container__full
-    .logo__title{
-    top: 30px;
-  }
+
   .container__full
    .logo__title h1 {
     font-size: 20px;
