@@ -8,6 +8,7 @@ $(document).ready(function () {
 
 $( "#menu__items" ).hide();
   $( "#menu" ).click(function() {
+    $("#dn").toggle('hide');
 
   $( "#menu__items" ).slideToggle( "slow", function() {
     // Animation complete.
@@ -15,6 +16,7 @@ $( "#menu__items" ).hide();
 
 
 });
+
 
 
 

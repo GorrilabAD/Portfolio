@@ -22,8 +22,14 @@ body{
   overflow: hidden;
   overflow-y: scroll;
   width: 100%;
+  background: #000;
 
 }
+.first_background {
+  filter: blur(1px);
+}
+
+
 #menu__items{
   display: none;
   width: 100%;
@@ -38,7 +44,7 @@ body{
       display: block;
       position: relative;
       margin: 0 auto;
-      color:   #4b5456;
+      color:   #000;
       font-size: 22px;/* Приближение из-за подстановки шрифтов */
       font-weight: 700;
       line-height: 30px;/* Приближение из-за подстановки шрифтов */
@@ -51,7 +57,7 @@ body{
           width: 0;
           bottom: 0;
           display: block;
-          background: #4b5456;
+          background: #000;
           transition: all .4s ease;
 
         }
@@ -84,14 +90,14 @@ body{
       background: transparent;
       text-align: center;
         h1 {
-          color: #ffffff;
-          font-size: 50px;
+          color: #fff;
+          font-size: 60px;
           font-weight: 700;
           line-height: 24px;
           text-align: center;
           display: block;
-          border-top: solid 1px #fff;
-          border-bottom: solid 1px #fff;
+          border-top: solid 2px #fff;
+          border-bottom: solid 2px #fff;
           width: 60%;
           margin: 0 auto;
           height: 70px;
@@ -155,7 +161,7 @@ body{
   margin: 0;
   top: 0;
   left: 0;
-  background-color:  #252e30;
+  background-color:  #111;
   height: 70px;
   display: -webkit-flex;
   display: -ms-flex;
@@ -224,22 +230,21 @@ body{
 
             }
         }
-        .burger{
+        .burger {
           display: none;
           width: 70px;
-          height: 70px;
-
-          position: absolute;
+          height: 100%;
+          margin-top: 20px ;
+          position: relative;
           left: 15px;
           background: transparent;
-          padding-top: 15px;
           .burger__line{
-            width: 60px;
+            width: 30px;
             position: relative;
             display: block;
-            height: 7px;
+            height: 4px;
             background: #2ecc71;
-            margin-top: 10px;
+            margin-top: 5px;
           }
           &:active{
             transform: scale(0.9);
@@ -283,7 +288,7 @@ body{
         h2{
           margin-bottom: 50px;
           text-transform: uppercase;
-          color:  #556366;
+          color:  #fff;
           font-size: 30px;/* Приближение из-за подстановки шрифтов */
           font-weight: 700;
           line-height: 24px;/* Приближение из-за подстановки шрифтов */
@@ -293,12 +298,13 @@ body{
 
         }
         p{
-          color:  #919191;
+          color:  #fff;
           font-size: 16px;/* Приближение из-за подстановки шрифтов */
           font-weight: 400;
           line-height: 30px;/* Приближение из-за подстановки шрифтов */
           text-align: left;
           cursor: default;
+          letter-spacing: 1px;
           width:100%;
           word-wrap: break-word;
 
@@ -329,7 +335,7 @@ body{
           margin-bottom: 48px;
           margin-top: 20px;
           text-transform: uppercase;
-          color:  #556366;
+          color:  #fff;
           font-size: 26px;/* Приближение из-за подстановки шрифтов */
           font-weight: 700;
           line-height: 24px;/* Приближение из-за подстановки шрифтов */
@@ -373,7 +379,7 @@ body{
                   .text__card{
                     display: block;
                     h2{
-                      color:  #556366;
+                      color:  #fff;
                       font-size: 20px;/* Приближение из-за подстановки шрифтов */
                       font-weight: 700;
                       text-align: left;
@@ -406,12 +412,13 @@ body{
   margin: 0 auto;
   padding-left: 140px;
   padding-top: 100px;
+  padding-bottom: 100px;
 
   .left__block__skills{
     width: 550px;
       h2{
         text-transform: uppercase;
-        color:  #556366;
+        color:  #fff;
         font-size: 30px;/* Приближение из-за подстановки шрифтов */
         font-weight: 700;
         line-height: 24px;/* Приближение из-за подстановки шрифтов */
@@ -472,7 +479,7 @@ body{
     width: 550px;
       h2{
         text-transform: uppercase;
-        color:  #556366;
+        color:  #fff;
         font-size: 22px;/* Приближение из-за подстановки шрифтов */
         font-weight: 700;
         line-height: 24px;/* Приближение из-за подстановки шрифтов */
@@ -498,9 +505,10 @@ body{
               padding-right: 10px;
               color: #fff;
           }
-          .illustrator{
-            width: 80%;
+          .react{
+            width: 65%;
             height: 100%;
+            margin-top: 30px;
             background: rgba(46, 204, 113, 1);
               text-align: right;
               display: -webkit-flex;
@@ -536,6 +544,7 @@ body{
               justify-content: flex-end;
               padding-right: 10px;
               color: #fff;
+              margin-bottom: 40px;
           }
       }
   }
@@ -552,7 +561,7 @@ body{
         h2{
           display: block;
           margin: 0 auto;
-          color:  #556366;
+          color:  #fff;
           font-size: 30px;/* Приближение из-за подстановки шрифтов */
           font-weight: 700;
           line-height: 24px;/* Приближение из-за подстановки шрифтов */
@@ -627,7 +636,7 @@ body{
 
         h2{
           text-transform: uppercase;
-          color:  #556366;
+          color:  #fff;
           font-size: 30px;/* Приближение из-за подстановки шрифтов */
           font-weight: 700;
           line-height: 24px;/* Приближение из-за подстановки шрифтов */
@@ -668,7 +677,7 @@ body{
           margin-bottom: 30px;
         }
         h2{
-          color:  #556366;
+          color:  #fff;
           font-size: 22px;/* Приближение из-за подстановки шрифтов */
           font-weight: 700;
           line-height: 24px;/* Приближение из-за подстановки шрифтов */
@@ -731,7 +740,7 @@ body{
   padding-top: 100px;
   .portfolio__text{
     h2{
-      color:  #556366;
+      color:  #fff;
       font-size: 30px;/* Приближение из-за подстановки шрифтов */
       font-weight: 700;
       line-height: 24px;/* Приближение из-за подстановки шрифтов */
@@ -769,7 +778,7 @@ body{
           content: '';
           position: absolute;
           display: block;
-          height: 300px;
+          height: 100%;
           width: 366px;
           top: 0;
           left: 0;
@@ -808,7 +817,24 @@ body{
             }
 
         }
+        .img_port {
+          max-width: 100%;
+        }
 
+      }
+      .tatoo {
+        background: url('../img/port1.png');
+        background-size: cover;
+      }
+      .cdm {
+        background: url('../img/port2.png');
+        background-size: cover;
+        background-position: center;
+      }
+      .jurkon {
+        background: url('../img/port3.png');
+        background-size: cover;
+        background-position: center;
       }
       .filter{
         display: -webkit-flex;
@@ -819,6 +845,7 @@ body{
         height: 300px;
         background-color:  #252e30;
         margin-top: 50px;
+        display: none;
 
           p{
             color:  #ffffff;

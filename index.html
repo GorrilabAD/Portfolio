@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/media.css">
-  
+
 
 
 </head>
@@ -18,7 +18,7 @@
   <header>
     <div class="container__full">
 
-      <img src="img/header__bg.png" alt="">
+      <img src="img/1.jpg" class="first_background" style="max-width:100%;" alt="">
       <div class="logo__title">
         <h1>Web & Grafics Designer</h1>
         <div class="button__learn">
@@ -28,12 +28,17 @@
 
     </div>
     <div class="navbar__container">
+      <div class="burger" id="menu">
+        <span class="burger__line transform"></span>
+        <span class="burger__line" id="dn"></span>
+        <span class="burger__line"></span>
+      </div>
       <div class="logo__container">
-        <img src="img/logo.png" alt="" class="logo">
         <div class="text__logo">
           <span class="white__text">GO<span class="green__text">RILLA</span></span>
         </div>
       </div>
+
       <div class="menu__items" >
         <a href="#" class="menu__item">home</a>
         <a href="#about" class="menu__item">about me</a>
@@ -44,10 +49,7 @@
         <a href="#contact" class="menu__item">contact me</a>
       </div>
 
-        <div class="burger" id="menu">
-          <span class="burger__line"></span>
-          <span class="burger__line"></span>
-        </div>
+
     </div>
     <div id="menu__items">
       <a href="#" class="menu__item">home</a>
@@ -63,7 +65,7 @@
   <main>
     <div class="container__flex">
       <div class="description_block">
-        <h2>values</h2>
+        <h2>Цели</h2>
         <p>
             Lorem ipsum dolor sit amet,
             consectetur adipisicing elit.
@@ -73,17 +75,7 @@
         </p>
       </div>
       <div class="description_block">
-        <h2>Goals</h2>
-        <p>
-            Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit.
-            Culpa tempore rem provident mollitia
-            eaque voluptates quam perspiciatis,
-            vel nisi ab consequuntur similique iste
-        </p>
-      </div>
-      <div class="description_block">
-        <h2>Hobbies</h2>
+        <h2>Увлечения</h2>
         <p>
             Lorem ipsum dolor sit amet,
             consectetur adipisicing elit.
@@ -98,11 +90,11 @@
   <main>
     <div class="container__full__person" id="about">
       <div class="block__personal__photo">
-        <img src="img/person.png" alt="" class="mw-38">
+        <img src="img/2.jpg" alt="" class="mw-38">
         <img src="img/port3.png" alt="" class="mw-circle">
       </div>
       <div class="about__container">
-        <h2>about me</h2>
+        <h2>Обо мне</h2>
         <p class="mb" >
           Lorem ipsum dolor sit amet,
           ea doming epicuri iudicabit nam,
@@ -126,7 +118,7 @@
                 <img src="img/web.png" alt="">
               </div>
               <div class="text__card">
-                <h2>Web Design</h2>
+                <h2>Веб-дизайн</h2>
                 <p>
                   Lorem ipsum dolor sit amet,
                   ea doming epicuri iudicabit nam.
@@ -138,7 +130,7 @@
                 <img src="img/grafic.png" alt="">
               </div>
               <div class="text__card">
-                <h2>Graphic Design</h2>
+                <h2>веб-разработка</h2>
                 <p>
                   Lorem ipsum dolor sit amet,
                   ea doming epicuri iudicabit nam.
@@ -152,7 +144,7 @@
                 <img src="img/market.png" alt="">
               </div>
               <div class="text__card">
-                <h2>Online marketing</h2>
+                <h2>Spa-приложения</h2>
                 <p>
                   Lorem ipsum dolor sit amet,
                   ea doming epicuri iudicabit nam.
@@ -164,7 +156,7 @@
                 <img src="img/seo.png" alt="">
               </div>
               <div class="text__card">
-                <h2>seo</h2>
+                <h2>Landing page</h2>
                 <p>
                   Lorem ipsum dolor sit amet,
                   ea doming epicuri iudicabit nam.
@@ -178,7 +170,7 @@
   </main>
   <main class="skills" id="skills">
     <div class="left__block__skills">
-      <h2>My skils</h2>
+      <h2>Мои Навыки</h2>
       <p class="mb" >
         Lorem ipsum dolor sit amet,
         ea doming epicuri iudicabit nam,
@@ -204,13 +196,6 @@
 
         </div>
       </div>
-      <h2>illustrator</h2>
-      <div class="line__load">
-        <div class="illustrator">
-          80%
-
-        </div>
-      </div>
       <h2>html / css</h2>
       <div class="line__load">
         <div class="html__css">
@@ -218,18 +203,25 @@
 
         </div>
       </div>
-      <h2>php / mysql</h2>
+      <h2>javascript/jquery</h2>
       <div class="line__load">
         <div class="php__mysql">
           70%
 
+        </div>
+        <h2>React JS/ Vue JS</h2>
+        <div class="line__load">
+          <div class="react">
+            80%
+
+          </div>
         </div>
       </div>
     </div>
   </main>
   <main>
       <div class="content__resume" id="resume">
-        <h2>resume</h2>
+        <h2>Резюме</h2>
         <p>
           Lorem ipsum dolor sit amet,
           ea doming epicuri iudicabit nam,
@@ -247,7 +239,7 @@
 
   <main class="education__container" id="educ">
     <div class="left__block">
-      <h2>My education</h2>
+      <h2>Мое образование</h2>
       <p>
         Lorem ipsum dolor sit amet,
         ea doming epicuri iudicabit nam,
@@ -278,7 +270,7 @@
   </main>
   <main class="education__container two" id="exp">
     <div class="left__block">
-      <h2>work experience</h2>
+      <h2>опыт работы</h2>
       <p>
         Lorem ipsum dolor sit amet,
         ea doming epicuri iudicabit nam,
@@ -360,7 +352,7 @@
 <main>
   <div class="portfolio__container">
     <div class="portfolio__text" id="portfolio">
-      <h2>portfolio</h2>
+      <h2>портфолио</h2>
       <p>
         Lorem ipsum dolor sit amet,
         ea doming epicuri iudicabit nam,
@@ -381,13 +373,14 @@
         <a href="#">Mocups</a>
         <a href="#">UI Kits</a>
       </div>
-      <div class="card__portfolio">
-        <img src="img/port1.png" class="img_port" alt="">
-        <a href="img/port1.png"><img src="img/wh_search.png" class="portfolio__fbox"alt=""></a>
+      <div class="card__portfolio tatoo">
+        <a href="https://cranky-lamarr-499e04.netlify.com"></a>
       </div>
-      <div class="card__portfolio">
-        <img src="img/port2.png" class="img_port" alt="">
-        <a href="img/port2.png"><img src="img/wh_search.png" class="portfolio__fbox"alt=""></a>
+      <div class="card__portfolio cdm">
+        <a href="https://lucid-goldwasser-988128.netlify.com/"></a>
+      </div>
+      <div class="card__portfolio jurkon">
+        <a href="https://wonderful-jang-616804.netlify.com"></a>
       </div>
     </div>
 
@@ -425,7 +418,7 @@
 
 <footer>
   <div class="left__block__footer" id="contact">
-    <h2>Contact me</h2>
+    <h2>контакты</h2>
     <p>
       Lorem ipsum dolor sit amet,
       ea doming epicuri iudicabit nam,
