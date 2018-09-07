@@ -445,14 +445,18 @@
   </div>
 
   <div class="right__block__footer" id="contact">
-    <form action="mail.php" method="post">
+    <form action="mail.php" method="POST">
         <div class="element__input">
           <label>Имя*</label>
-          <input type="text" name="name" value="">
+          <input type="text" name="user_name" value="">
+        </div>
+        <div class="element__input">
+          <label>Tel:</label>
+          <input type="number" name="user_phone" value="+7">
         </div>
         <div class="element__input">
           <label>Email Adress*</label>
-          <input type="text" name="email" value="">
+          <input type="email" name="user_email" value="">
         </div>
         <div class="element__input">
           <label>Сообщение*</label>
@@ -460,7 +464,7 @@
 
         </div>
         <div class="element__button">
-          <button type="submit" name="button">Напиши мне</button>
+          <button type="submit" name="button">Отправить</button>
         </div>
     </form>
   </div>
