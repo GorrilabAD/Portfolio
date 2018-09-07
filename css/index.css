@@ -240,17 +240,14 @@ body {
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  width: 90%;
+  width: 100%;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
-  margin-left: 80px;
-  margin-right: 40px; }
+  flex-wrap: wrap; }
   .container__flex .description_block {
     width: 268px;
-    margin-left: 60px;
     padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px; }
@@ -278,6 +275,8 @@ body {
       letter-spacing: 1px;
       width: 100%;
       word-wrap: break-word; }
+  .container__flex .description_block:not(:first-child) {
+    margin-left: 30px; }
 
 .container__full__person {
   width: 100%;
@@ -285,10 +284,8 @@ body {
   display: -ms-flex;
   display: flex;
   padding-top: 100px; }
-  .container__full__person .block__personal__photo {
-    min-width: 100%; }
-    .container__full__person .block__personal__photo img {
-      max-width: 100%; }
+  .container__full__person .block__personal__photo img {
+    max-width: 100%; }
   .container__full__person .about__container {
     margin-left: 50px;
     padding-left: 50px;
@@ -314,43 +311,43 @@ body {
       line-height: 20px;
       /* Приближение из-за подстановки шрифтов */
       text-align: left; }
-    .container__full__person .about__container .container__serveces__about .row {
+  .container__full__person .container__serveces__about .row {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin-top: 40px;
+    width: 100%; }
+    .container__full__person .container__serveces__about .row .card_w {
       display: -webkit-flex;
       display: -ms-flex;
       display: flex;
-      align-items: baseline;
-      justify-content: flex-start;
-      margin-top: 40px;
-      width: 100%; }
-      .container__full__person .about__container .container__serveces__about .row .card_w {
-        display: -webkit-flex;
-        display: -ms-flex;
-        display: flex;
-        width: 349px; }
-        .container__full__person .about__container .container__serveces__about .row .card_w .icon {
-          margin-top: 20px;
-          margin-right: 30px;
-          width: 41px;
-          height: 41px; }
-        .container__full__person .about__container .container__serveces__about .row .card_w .text__card {
-          display: block; }
-          .container__full__person .about__container .container__serveces__about .row .card_w .text__card h2 {
-            color: #fff;
-            font-size: 20px;
-            /* Приближение из-за подстановки шрифтов */
-            font-weight: 700;
-            text-align: left;
-            margin-bottom: 20px; }
-          .container__full__person .about__container .container__serveces__about .row .card_w .text__card p {
-            width: 180px;
-            word-wrap: break-word;
-            color: #919191;
-            font-size: 16px;
-            /* Приближение из-за подстановки шрифтов */
-            font-weight: 400;
-            line-height: 20px;
-            /* Приближение из-за подстановки шрифтов */
-            text-align: left; }
+      width: 349px; }
+      .container__full__person .container__serveces__about .row .card_w .icon {
+        margin-top: 20px;
+        margin-right: 30px;
+        width: 41px;
+        height: 41px; }
+      .container__full__person .container__serveces__about .row .card_w .text__card {
+        display: block; }
+        .container__full__person .container__serveces__about .row .card_w .text__card h2 {
+          color: #fff;
+          font-size: 20px;
+          /* Приближение из-за подстановки шрифтов */
+          font-weight: 700;
+          text-align: left;
+          margin-bottom: 20px; }
+        .container__full__person .container__serveces__about .row .card_w .text__card p {
+          width: 180px;
+          word-wrap: break-word;
+          color: #919191;
+          font-size: 16px;
+          /* Приближение из-за подстановки шрифтов */
+          font-weight: 400;
+          line-height: 20px;
+          /* Приближение из-за подстановки шрифтов */
+          text-align: left; }
 
 .skills {
   display: -webkit-flex;
