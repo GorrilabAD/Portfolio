@@ -34,10 +34,7 @@ body {
   overflow: hidden;
   overflow-y: scroll;
   width: 100%;
-  background: #000; }
-
-.first_background {
-  filter: blur(1px); }
+  background: #111; }
 
 #menu__items {
   display: none;
@@ -887,7 +884,8 @@ footer {
         text-align: center;
         text-transform: uppercase;
         position: relative;
-        display: block; }
+        display: block;
+        z-index: 999; }
       footer .right__block__footer .element__button::before {
         content: '';
         width: 185px;
