@@ -91,14 +91,13 @@ body {
     background: transparent;
     text-align: center; }
     .container__full .logo__title h1 {
+      position: relative;
       color: #fff;
       font-size: 60px;
       font-weight: 700;
       line-height: 24px;
       text-align: center;
       display: block;
-      border-top: solid 2px #fff;
-      border-bottom: solid 2px #fff;
       width: 60%;
       margin: 0 auto;
       height: 70px;
@@ -109,6 +108,30 @@ body {
       justify-content: center;
       letter-spacing: 2px;
       text-transform: uppercase; }
+      .container__full .logo__title h1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 40px;
+        width: 65px;
+        height: 2px;
+        z-index: 999;
+        background: #fff;
+        transition: all .7s ease; }
+      .container__full .logo__title h1:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 40px;
+        width: 65px;
+        height: 2px;
+        z-index: 999;
+        background: #fff;
+        transition: all .7s ease; }
+      .container__full .logo__title h1:hover::before {
+        right: 80%; }
+      .container__full .logo__title h1:hover::after {
+        left: 80%; }
     .container__full .logo__title .button__learn {
       display: block;
       position: relative;
@@ -720,9 +743,8 @@ body {
       background-size: cover;
       background-position: center; }
     .portfolio__container .row__portfolio .tatoo {
-      background: url("../img/port1.png");
-      background-size: cover;
-      background-position: center; }
+      background: url("../img/tatoo.png");
+      background-size: cover; }
     .portfolio__container .row__portfolio .cdm {
       background: url("../img/port2.png");
       background-size: cover;
@@ -953,3 +975,15 @@ footer {
       left: 50%;
       transform: translate(-50%, -50%);
       color: #191f21; }
+
+.myflyer {
+  background: url("../img/fly-min.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%; }
+
+.myecostart {
+  background: url("../img/ecostartpr.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%; }
