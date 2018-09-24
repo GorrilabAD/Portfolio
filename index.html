@@ -5,100 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="yandex-verification" content="3b235f2d5d7e94cd" />
-  <title>Web designer</title>
+  <title>Web developer</title>
   <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/animate.css">
 
 
 <meta name="google-site-verification" content="7g_Fw2rqWsHRT8sJA2cRS4SV4RJgjAAuc_LQAbYb0qE" />
 </head>
 
 <body>
-  <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter50349763 = new Ya.Metrika2({
-                    id:50349763,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/tag.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks2");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/50349763" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-  <header>
     <div class="container__full">
 
-      <img src="img/gr.jpg" class="first_background" style="max-width:100%;" alt="">
+      <img src="img/gr-min.jpg" class="first_background" style="max-width:100%;" alt="">
       <div class="logo__title">
-        <h1>web-developer</h1>
+        <h1 class="fadeInUp animated movTop" style="visibility: visible;">web-developer</h1>
       </div>
 
     </div>
     <div class="navbar__container">
       <div class="burger" id="menu">
-        <span class="burger__line transform"></span>
-        <span class="burger__line" id="dn"></span>
-        <span class="burger__line"></span>
+        <span class="animated movLeft burger__line transform"></span>
+        <span class="animated movLeft burger__line" id="dn"></span>
+        <span class="animated movLeft burger__line"></span>
       </div>
       <div class="logo__container">
-        <div class="text__logo">
+        <div class="text__logo movTop animated" style="visibility:visible">
           <span class="white__text">GO<span class="green__text">RILLA</span></span>
         </div>
       </div>
 
       <div class="menu__items" >
-        <a href="#" class="menu__item">Главная</a>
-        <a href="#about" class="menu__item">Обо мне</a>
-        <a href="#skills" class="menu__item">навыки</a>
+        <a href="#" class="menu__item movTop animated">Главная</a>
+        <a href="#about" class="menu__item movTop animated">Обо мне</a>
+        <a href="#skills" class="menu__item movTop animated">навыки</a>
         <!-- <a href="#resume" class="menu__item">resume</a> -->
-        <a href="#portfolio" class="menu__item">Портфолио</a>
-        <a href="#testimonials" class="menu__item">Цитаты</a>
-        <a href="#contact" class="menu__item">Контакты</a>
+        <a href="#portfolio" class="menu__item movTop animated">Портфолио</a>
+        <a href="#testimonials" class="menu__item movTop animated">Цитаты</a>
+        <a href="#contact" class="menu__item movTop animated">Контакты</a>
       </div>
 
 
     </div>
-    <div id="menu__items">
-      <a href="#" class="menu__item">Главная</a>
-      <a href="#about" class="menu__item">Обо мне</a>
-      <a href="#skills" class="menu__item">навыки</a>
+    <div id="menu__items" class="navFix">
+      <a href="#" class="menu__item movTop animated" style="visibility:visible">Главная</a>
+      <a href="#about" class="menu__item movTop animated" style="visibility:visible">Обо мне</a>
+      <a href="#skills" class="menu__item movTop animated" style="visibility:visible">навыки</a>
       <!-- <a href="#resume" class="menu__item">resume</a> -->
-      <a href="#portfolio" class="menu__item">Портфолио</a>
-      <a href="#testimonials" class="menu__item">Цитаты</a>
-      <a href="#contact" class="menu__item">Контакты</a>
+      <a href="#portfolio" class="menu__item movTop animated" style="visibility:visible">Портфолио</a>
+      <a href="#testimonials" class="menu__item movTop animated" style="visibility:visible">Цитаты</a>
+      <a href="#contact" class="menu__item movTop animated" style="visibility:visible">Контакты</a>
     </div>
 
   </header>
   <main>
     <div class="container__full__person" id="about">
-      <div class="block__personal__photo">
-        <img src="img/2.jpg" alt="" class="mw-38">
+      <div class="block__personal__photo animated movLeft">
+        <img src="img/2-min.jpg" alt="" class="mw-38">
         <div class="mw-circle"></div>
       </div>
       <div class="about__container">
-        <h2>Обо мне</h2>
-        <p class="mb" >
+        <h2 class="dl-2 animated movRight">Обо мне</h2>
+        <p class="mb dl-4 animated movRight" >
           Профессиональная разработка Лендингов,
           одностраничных сайтов, SPA-Приложений.
           Постоянно применяю новые тренды, а так же
@@ -117,9 +87,9 @@
         <div class="container__serveces__about">
 
           <div class="row">
-            <div class="card_w">
+            <div class="card_w animated movRight">
               <div class="icon">
-                <img src="img/web.png" alt="">
+                <img src="img/web-min.png" alt="">
               </div>
               <div class="text__card">
                 <h2>Веб-дизайн</h2>
@@ -129,9 +99,9 @@
                 </p>
               </div>
             </div>
-            <div class="card_w">
+            <div class="card_w animated movRight dl-2">
               <div class="icon">
-                <img src="img/grafic.png" alt="">
+                <img src="img/grafic-min.png" alt="">
               </div>
               <div class="text__card">
                 <h2>веб-разработка</h2>
@@ -142,9 +112,9 @@
             </div>
           </div>
           <div class="row">
-            <div class="card_w">
+            <div class="card_w animated movRight dl-4">
               <div class="icon">
-                <img src="img/market.png" alt="">
+                <img src="img/market-min.png" alt="">
               </div>
               <div class="text__card">
                 <h2>Frontend</h2>
@@ -155,9 +125,9 @@
                 </p>
               </div>
             </div>
-            <div class="card_w second_card">
+            <div class="card_w animated movRight dl-6 second_card">
               <div class="icon">
-                <img src="img/seo.png" alt="">
+                <img src="img/seo-min.png" alt="">
               </div>
               <div class="text__card">
                 <h2>Landing page</h2>
@@ -175,8 +145,8 @@
   <main>
     <div class="container__flex">
       <div class="description_block">
-        <h2>Цели</h2>
-        <p>
+        <h2 class="animated movTop">Цели</h2>
+        <p class="animated movTop ">
             В этом году пришлось много учить,
             но это только начало. В ближайшем будущем
             хочу освоить React Naitive, мобильную разработку.
@@ -184,8 +154,8 @@
         </p>
       </div>
       <div class="description_block">
-        <h2>Увлечения</h2>
-        <p>
+        <h2 class="animated movTop dl-2">Увлечения</h2>
+        <p class="animated movTop dl-2">
             Активно занимаюсь спортом.
             Бокс, САМБО, Кик-Боксинг.
             Увлекаюсь туризмом, люблю путешествовать
@@ -195,8 +165,8 @@
         </p>
       </div>
       <div class="description_block">
-        <h2>Достижения</h2>
-        <p>
+        <h2 class="animated movTop sl-4">Достижения</h2>
+        <p class="animated movTop sl-4">
             На сегодняшний день,
              список моих достижений не большой
              и в основном связан со спортом.
@@ -208,11 +178,11 @@
   </main>
   <main class="skills" id="skills">
     <div class="left__block__skills">
-      <h2>Мои Навыки</h2>
-      <p class="mb" >
-        HTML5 / CSS3 / LESS / SASS / SCSS <br />
-        Javascript / Jquery / JqueryMobile <br />
-        React Js / Redux / Typescript / Vue js / Vuex <br />
+      <h2 class="animated movLeft">Мои Навыки</h2>
+      <p class="mb animated movLeft dl-2" >
+        HTML5 / CSS3 / LESS / SASS / SCSS <br class="animated movLeft dl-4"/>
+        Javascript / Jquery / JqueryMobile <br class="animated movLeft dl-6" />
+        React Js / Redux / Typescript / Vue js / Vuex <br class="animated movLeft dl-8"/>
         Bootstrap 3,4 / Material io / Reactstrap
         Css Grid / Smart Grid / FlexBox
         Responsive / Mobile devices
@@ -227,38 +197,38 @@
         Если вижу какие-либо ошибки, в тз или по дизайну,
         всегда помогу , предложу лучшее решение.
       </p>
-      <a href="#contact"><button class="button__skils">contact me</div></a>
+      <a href="#contact"><button class="button__skils animated movLeft dl-10">contact me</div></a>
     </div>
     <div class="right__block__skills">
-      <h2>Photoshop</h2>
-      <div class="line__load">
+      <h2 class="movLeft animated">Photoshop</h2>
+      <div class="line__load  animated movRight dl-2">
         <div class="photoshop">
           90%
 
         </div>
       </div>
-      <h2>html / css</h2>
-      <div class="line__load">
+      <h2 class="animated movRight dl-4">html / css</h2>
+      <div class="line__load animated movRight dl-4">
         <div class="html__css">
           90%
 
         </div>
       </div>
-      <h2>javascript/jquery</h2>
-      <div class="line__load">
+      <h2 class="animated movRight dl-6">javascript/jquery</h2>
+      <div class="line__load animated movRight dl-6">
         <div class="php__mysql">
           85%
 
         </div>
-        <h2>React JS/ Vue JS</h2>
-        <div class="line__load">
+        <h2 class="animated movRight dl-8">React JS/ Vue JS</h2>
+        <div class="line__load animated movRight dl-8">
           <div class="react">
             80%
 
           </div>
         </div>
-        <h2>Bootsrap / Reactstrap </h2>
-        <div class="line__load">
+        <h2 class="animated movRight dl-10">Bootsrap / Reactstrap </h2>
+        <div class="line__load animated movRight dl-10">
           <div class="react">
             80%
 
@@ -269,8 +239,8 @@
   </main>
   <main>
       <div class="content__resume" id="resume">
-        <h2>Резюме</h2>
-        <p>
+        <h2 class="animated movTop">Резюме</h2>
+        <p class="animated movTop">
           Lorem ipsum dolor sit amet,
           ea doming epicuri iudicabit nam,
           te usu virtute placerat. Purto brute
@@ -278,7 +248,7 @@
           Vel dicam vivendo accusata ei,
           cum ne periculis molestiae pri.
         </p>
-        <a href=""><button class="button__skils">Download resume</button></a>
+        <a href=""><button class="button__skils animated movTop">Download resume</button></a>
 
     </div>
 
@@ -354,8 +324,8 @@
   <main>
     <div class="portfolio__container">
       <div class="portfolio__text" id="portfolio">
-        <h2>портфолио</h2>
-        <p>
+        <h2 class="animated movTop">портфолио</h2>
+        <p class="animated movTop">
           Портфолио находится в режиме дополнения. Скоро все работы займут свое место
         </p>
       </div>
@@ -370,119 +340,118 @@
           <a href="#">Mocups</a>
           <a href="#">UI Kits</a>
         </div>
-        <div class="card__portfolio myecostart">
+        <div class="card__portfolio mars animated movTop">
+          <a href="https://phantom-mars.netlify.com">
+            <img src="img/wh_search-min.png" class="portfolio__fbox"alt="">
+          </a>
+        </div>
+        <div class="card__portfolio myecostart animated movTop">
           <a href="https://eco-start.com">
-            <img src="img/wh_search.png" class="portfolio__fbox"alt="">
+            <img src="img/wh_search-min.png" class="portfolio__fbox"alt="">
           </a>
         </div>
-        <div class="card__portfolio myflyer">
+        <div class="card__portfolio myflyer animated movTop">
           <a href="https://stoic-rosalind-6731ee.netlify.com">
-            <img src="img/wh_search.png" class="portfolio__fbox"alt="">
+            <img src="img/wh_search-min.png" class="portfolio__fbox"alt="">
           </a>
         </div>
-        <div class="card__portfolio myportfolio">
+        <div class="card__portfolio myportfolio animated movTop">
           <a href="https://web-devs.netlify.com">
-            <img src="img/wh_search.png" class="portfolio__fbox"alt="">
+            <img src="img/wh_search-min.png" class="portfolio__fbox"alt="">
           </a>
         </div>
-        <div class="card__portfolio tatoo">
+        <div class="card__portfolio tatoo animated movTop">
           <a href="https://tatooink.netlify.com">
-            <img src="img/wh_search.png" class="portfolio__fbox"alt="">
+            <img src="img/wh_search-min.png" class="portfolio__fbox"alt="">
           </a>
         </div>
-        <div class="card__portfolio cdm">
+        <div class="card__portfolio cdm animated movTop">
           <a href="https://cafehouse.netlify.com/">
-            <img src="img/wh_search.png" class="portfolio__fbox"alt="">
+            <img src="img/wh_search-min.png" class="portfolio__fbox"alt="">
           </a>
         </div>
-        <div class="card__portfolio jurkon">
+        <div class="card__portfolio jurkon animated movTop displayN">
           <a href="https://jrk.netlify.com">
-            <img src="img/wh_search.png" class="portfolio__fbox"alt="">
+            <img src="img/wh_search-min.png" class="portfolio__fbox"alt="">
           </a>
         </div>
-        <div class="card__portfolio mycompany">
+        <div class="card__portfolio mycompany animated movTop displayN">
           <a href="https://mycomp.netlify.com">
-            <img src="img/wh_search.png" class="portfolio__fbox"alt="">
+            <img src="img/wh_search-min.png" class="portfolio__fbox"alt="">
           </a>
         </div>
-        <div class="card__portfolio beint">
+        <div class="card__portfolio beint animated movTop displayN">
           <a href="http://www.beinternational.ru/">
-            <img src="img/wh_search.png" class="portfolio__fbox"alt="">
+            <img src="img/wh_search-min.png" class="portfolio__fbox"alt="">
           </a>
         </div>
       </div>
     </div>
   </main>
 
-<div>
+<div style="margin-top: 100px;">
   <h1 class="citate">Цитаты</h1>
 </div>
   <div class="single-item" id="testimonials">
     <div>
       <div class="block__our__slider">
         <p>
-          “Lorem ipsum dolor sit amet,
-          ea doming epicuri iudicabit nam,
-          te usu virtute placerat. Purto brute
-          disputando cu est, eam dicam soluta ei.
-          Vel dicam vivendo accusata ei, cum ne
-          periculis molestiae pri. Lorem ipsum dolor
-          sit amet, ea doming epicuri iudicabit nam.”
+          “Многие люди не могут похвастаться
+          очень разнообразным опытом.
+          На их жизненном графике не хватает координат,
+          чтобы, соединив их, построить правильную траекторию движения.
+          Большинство не видит проблему во всём её многообразии,
+          поэтому их решения весьма прямолинейны. Чем выше культура
+          человека, позволяющая ему шире использовать
+          опыт человечества, тем лучше его конструкторские решения.”
         </p>
-        <h2>john Stone</h2>
+        <h2>Steve Jobs</h2>
     </div>
   </div>
   <div>
     <div class="block__our__slider">
       <p>
-        “Lorem ipsum dolor sit amet,
-        ea doming epicuri iudicabit nam,
-        te usu virtute placerat. Purto brute
-        disputando cu est, eam dicam soluta ei.
-        Vel dicam vivendo accusata ei, cum ne
-        periculis molestiae pri. Lorem ipsum dolor
-        sit amet, ea doming epicuri iudicabit nam.”
+        “Я очень уважаю постепенные преобразования и
+        стараюсь делать нечто подобное в своей жизни,
+        но меня всегда привлекали революционные перемены.
+         Потому что они труднее. Они эмоционально намного
+          напряжённее. И во время таких перемен ты всегда
+           проходишь через период, когда все говорят тебе,
+            что у тебя ничего не получится.”
       </p>
-      <h2>john Stone</h2>
+      <h2>Steve Jobs</h2>
   </div>
 </div>
 <div>
   <div class="block__our__slider">
     <p>
-      “Lorem ipsum dolor sit amet,
-      ea doming epicuri iudicabit nam,
-      te usu virtute placerat. Purto brute
-      disputando cu est, eam dicam soluta ei.
-      Vel dicam vivendo accusata ei, cum ne
-      periculis molestiae pri. Lorem ipsum dolor
-      sit amet, ea doming epicuri iudicabit nam.”
+      “Хорошая реклама образовывает людей,
+      только и всего. Невозможно одурачить
+      людей в этом бизнесе. Продукты говорят
+      сами за себя.”
     </p>
-    <h2>john Stone</h2>
+    <h2>Steve Jobs</h2>
 </div>
 </div>
 </div>
 <footer>
   <div class="left__block__footer" id="contact">
-    <h2>контакты</h2>
-    <p>
-      Lorem ipsum dolor sit amet,
-      ea doming epicuri iudicabit nam,
-      te usu virtute placerat. Purto brute
-      disputando cu est, eam dicam soluta ei.
-      Vel dicam vivendo accusata ei,
-      <br>
-      <br>
+    <h2 class="animated movLeft">контакты</h2>
+    <p class="animated movLeft">
+      Не стесняйтесь писать , я очень люблю общаться как с клиентами так и с интересными людьми. Есть идеи? пишите!
+      <br class="animated movLeft">
+      <br class="animated movLeft">
 
     ул. Рощинская 17а<br>
     г. Орел, Северный район
     </p>
-    <span>Email:&nbsp&nbsp&nbsp<p>wrestbild57@gmail.com</p></span>
-    <span>Phone:&nbsp&nbsp&nbsp <a class="number" href="tel:+79996512948">+7(999)651-2948</a></span>
+    <span class="animated movLeft">Email:&nbsp&nbsp&nbsp<p>wrestbild57@gmail.com</p></span>
+    <span class="animated movLeft">Phone:&nbsp&nbsp&nbsp <a class="number" href="tel:+79996512948">+7(997)166-6762</a></span>
   </div>
 
   <div class="right__block__footer" id="contact">
     <form action="./mail.php" method="POST">
-        <div class="element__input">
+        <div class="element__input animated movRight">
           <label>Имя*</label>
           <input
           placeholder="your name"
@@ -491,7 +460,7 @@
             value=""
           >
         </div>
-        <div class="element__input">
+        <div class="element__input animated movRight">
           <label>Tel:</label>
           <input
             type="phone"
@@ -500,7 +469,7 @@
             value=""
           >
         </div>
-        <div class="element__input">
+        <div class="element__input animated movRight">
           <label>Email Adress*</label>
           <input
             type="email"
@@ -509,7 +478,7 @@
             value=""
           >
         </div>
-        <div class="element__input">
+        <div class="element__input animated movRight">
           <label>Сообщение*</label>
           <textarea
             placeholder="Your message"
@@ -518,7 +487,7 @@
           </textarea>
 
         </div>
-        <div class="element__button">
+        <div class="element__button animated movRight">
           <button type="submit" name="button">Отправить</button>
         </div>
     </form>
@@ -528,18 +497,17 @@
 <div class="footer__down">
   <p>Copyright 2018 Gorrila - developer (Lobanov Anton)</p>
   <div class="icon__container">
-    <div class="icon__item"><a href="#"><i class="fab fa-twitter"></i></a></div>
-    <div class="icon__item"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
-    <div class="icon__item"><a href="#"><i class="fab fa-pinterest-p"></i></a></div>
-    <div class="icon__item"><a href="#"><i class="fab fa-google-plus-g"></i></a></div>
-    <div class="icon__item"><a href="#"><i class="fab fa-github"></i></a></div>
-    <div class="icon__item"><a href="#"><i class="fab fa-linkedin-in"></i></a></div>
+    <div class="icon__item"><a href="https://github.com/GorrilabAD"><i class="fab fa-facebook-f"></i></a></div>
+    <div class="icon__item"><a href="https://plus.google.com/112269380727500600137"><i class="fab fa-google-plus-g"></i></a></div>
+    <div class="icon__item"><a href="https://www.facebook.com/profile.php?id=100016666712579"><i class="fab fa-github"></i></a></div>
+    <div class="icon__item"><a href="https://vk.com/bayrer"><i class="fab fa-vk"></i></a></div>
   </div>
 </div>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="./js/scroll.js"></script>
+
 <script type="text/javascript" src="js/slick/slick.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 

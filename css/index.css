@@ -669,7 +669,8 @@ body {
     margin-bottom: 50px; }
 
 .portfolio__container {
-  padding-top: 100px; }
+  padding-top: 100px;
+  padding-bottom: 100px; }
   .portfolio__container .portfolio__text h2 {
     color: #fff;
     font-size: 30px;
@@ -690,7 +691,8 @@ body {
     font-weight: 400;
     line-height: 22px;
     /* Приближение из-за подстановки шрифтов */
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 100px; }
   .portfolio__container .row__portfolio {
     display: -webkit-flex;
     display: -ms-flex;
@@ -739,26 +741,26 @@ body {
       .portfolio__container .row__portfolio .card__portfolio .img_port {
         max-width: 100%; }
     .portfolio__container .row__portfolio .myportfolio {
-      background: url("../img/port_my.png");
+      background: url("../img/port_my-min.png");
       background-size: cover;
       background-position: center; }
     .portfolio__container .row__portfolio .tatoo {
-      background: url("../img/tatoo.png");
+      background: url("../img/tatoo-min.png");
       background-size: cover; }
     .portfolio__container .row__portfolio .cdm {
-      background: url("../img/port2.png");
+      background: url("../img/port2-min.png");
       background-size: cover;
       background-position: center; }
     .portfolio__container .row__portfolio .jurkon {
-      background: url("../img/port3.png");
+      background: url("../img/port3-min.png");
       background-size: cover;
       background-position: center; }
     .portfolio__container .row__portfolio .mycompany {
-      background: url("../img/port4.png");
+      background: url("../img/port4-min.png");
       background-size: cover;
       background-position: center; }
     .portfolio__container .row__portfolio .beint {
-      background: url("../img/port5.png");
+      background: url("../img/port5-min.png");
       background-size: cover; }
     .portfolio__container .row__portfolio .filter {
       display: -webkit-flex;
@@ -977,13 +979,22 @@ footer {
       color: #191f21; }
 
 .myflyer {
-  background: url("../img/fly-min.png");
+  background: url("../img/fly-min-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%; }
 
 .myecostart {
-  background: url("../img/ecostartpr.png");
+  background: url("../img/ecostartpr-min.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100%; }
+
+.mars {
+  background: url("../img/Mars-min.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%; }
+
+.displayN {
+  display: none; }
