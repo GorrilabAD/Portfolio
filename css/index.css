@@ -997,6 +997,11 @@ footer {
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100%; }
+.beauty {
+  background: url("../img/Mars-min.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%; }
 
 .displayN {
   display: none; }
