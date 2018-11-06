@@ -807,7 +807,7 @@ display: none;
           position: absolute;
           display: block;
           height: 100%;
-          width: 366px;
+          width: 100%;
           top: 0;
           left: 0;
           background: rgba(46, 204, 113, 0.1);
@@ -1144,6 +1144,12 @@ footer{
   background-repeat: no-repeat;
   background-position: 0 0 ;
   background-size: 100%;
+}
+.beauty {
+    background: url('../img/beauty.jpg');
+    background-repeat: no-repeat;
+    background-position: -65px 0;
+    background-size: 133%;
 }
 .displayN {
   display: none;
